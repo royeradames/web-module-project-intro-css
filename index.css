@@ -53,15 +53,13 @@ table {
     box-sizing: border-box;
     max-width: 100%;
   }
-
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 /* Royer Adames Code */
+
 html{
     font-size: 62.5%;
-    
-}
-.center-page{
-    width: 80%;
-    margin: 0 auto;
+    font-family: 'Chelsea Market', cursive;
 }
 
 /* Nav Buttons */
@@ -74,24 +72,23 @@ html{
     border-radius: 3rem;
     color: white;
     text-align: center;
-    width:  11%;
-    
+    width:  12%;
 }
 .red-button{
-    background-color: #ff754e;
+    background-color: #FF764E;
     margin-left: 17.75%;
 }
 .blue-button{
-    background-color: #5FD3EC;
+    background-color: #5ED3EB;
     margin: 0 17.75%;
 }
 .yellow-button{
-    background-color: #FFCD6A;
+    background-color: #FFCD69;
 }
 
 /* header */
 header{
-    height: 40rem;
+    height: 60rem;
     margin-bottom: 4rem;
 }
 
@@ -110,7 +107,7 @@ header{
     text-align: center;
 }
 .header-text h1{
-    font-size: 9.6rem;
+    font-size: 6.6rem;
     margin-bottom: 2rem;
     font-weight: 700;
 }
@@ -124,7 +121,7 @@ p.slogan{
     letter-spacing: .3rem;
     width: 90%;
     margin: 0 auto 2rem;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 /* summary */
@@ -167,6 +164,9 @@ section p{
 }
 
 /* footer */
+footer{
+    background: #F9E7DC;
+}
 footer img{
     background-image: url(assets/footer_img.jpg);
     height: 40vh;
@@ -174,4 +174,8 @@ footer img{
 }
 footer nav{
     margin-top: 3rem;
+}
+
+span{
+    font-weight: 700;
 }
