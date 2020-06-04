@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* border box fix */
+*, *:before, *:after {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/* Royer Adames Code */
+
+html{
+    font-size: 62.5%;
+    font-family: 'Chelsea Market', cursive;
+}
+
+/* Nav Buttons */
+.button{
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    padding: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3rem;
+    color: white;
+    text-align: center;
+    width:  12%;
+}
+.red-button{
+    background-color: #FF764E;
+    margin-left: 17.75%;
+}
+.blue-button{
+    background-color: #5ED3EB;
+    margin: 0 17.75%;
+}
+.yellow-button{
+    background-color: #FFCD69;
+}
+
+/* header */
+header{
+    height: 60rem;
+    margin-bottom: 4rem;
+}
+
+.header-image{
+    border-radius: 50%;
+    width: 32rem;
+    float: left;
+    margin: 5% 0% 0% 20%;
+    
+}
+.header-text{
+    display: inline-block;
+    height: 80%;
+    width: 49%;
+    margin: 5% 5% 0% 0;
+    text-align: center;
+}
+.header-text h1{
+    font-size: 6.6rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.header-text p{
+    font-size: 2.2rem;
+    line-height: 1.5;
+    width: 70%;
+    margin: 0 auto 2rem;
+}
+p.slogan{
+    letter-spacing: .3rem;
+    width: 90%;
+    margin: 0 auto 2rem;
+    font-size: 2.5rem;
+}
+
+/* summary */
+summary{
+    clear: both;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    
+    
+}
+.summary-container{
+    padding: 3%;
+    background-color: #DDB9A3;
+    color: white;
+    margin: 0 5%;
+}
+summary p{
+    margin-bottom: 2rem;
+    letter-spacing: .1rem;
+    line-height: 1.5;
+    
+}
+
+/* sections */
+section{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+section img{
+    height: 30rem;
+    width: 30rem;
+    margin: 0 auto;
+    display: block;
+}
+section p{
+    font-size: 2.2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    background: #F9E7DC;
+}
+footer img{
+    background-image: url(assets/footer_img.jpg);
+    height: 40vh;
+    width: 100%;
+}
+footer nav{
+    margin-top: 3rem;
+}
+
+span{
+    font-weight: 700;
+}
